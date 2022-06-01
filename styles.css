@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+body {
+    text-shadow: 2px;
+    background-size: cover;
+    width: 95vw;
+    height: 95vh;
+}
+
+video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.lgo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 1rem;
+}
+
+.tile {
+    color: white !important;
+    flex-shrink: 0 !important;
+    text-align: center !important;
+    position: relative !important;
+    margin: 4rem 0 !important;
+    padding: 0 4rem !important;
+    font-size: 5rem !important;
+    font-weight: bold;
+    
+}
+
+.stat {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 16rem;
+    font-size: 4rem;
+    padding: 2rem 4rem;
+    background-color: green;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.qr {
+    border-radius: 15px;
+    margin: 1.3rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.section-Parent {
+    height: 35rem;
+    margin: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 30px;
+    background-size: cover;
+    /* backdrop-filter: blur(20px); */
+    
+}
+
+.upcoming {
+    font-size: 3rem;
+    color: white;
+     margin-top: -3rem; 
+    margin-bottom: 4rem;
+}
+
+.event-child {
+    position: relative;
+    height: 25rem;
+    width: 40rem;
+    margin: 4.5rem 4rem;
+    border-radius: 30px;
+    padding: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px;
+    background-color: black;
+}
+.carousel{
+    height: 20rem;
+    width: 40rem;
+    border-radius: 30px;
+}
+
+ul {
+    list-style: none;
+    font-size: xx-large;
+}
+
+li {
+    color: white;
+    text-decoration-style: none;
+}
+
+.carousel-child{
+    /* background-color: red; */
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 2rem 4rem 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.content{
+    font-size: 4rem;
+  
+    
+} 
